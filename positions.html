@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        border-radius: 8px;
+        display: inline-block;
+        font-size: 20px;
+        text-align: center;
+    }
+    body{
+        height: 10000px;
+    }
+    .box:nth-child(2){
+        background-color: yellow;
+        /* position: relative; */
+        /* position: absolute; */
+        /* position: sticky; */
+        top: 100px;
+        left: 100px;
+    }
+    .containre{
+        height: 600px;
+        width: 1000px;
+        background-color: yellow;
+        margin: auto;
+        /* position: relative; */
+    }
+    .box2{
+        height: 100px;
+        width: 100%;
+        background-color: red;
+        
+    }
+    header{
+        width: 100%;
+        height: 200px;
+        position: sticky;
+        top: 0px;
+        background-color: black;
+    }
+    
+    .cont{
+        position: fixed;
+    }
+    .box3{
+        height: 50px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 0px;
+    }
+    .box4{
+        height: 48px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        position:absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+</style>
+<body>
+    <!-- 5 items positions
+
+    1. static
+    2. realtive
+    3. absolute
+    4. fixed
+    5. stickey -->
+
+    <!-- <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div> -->
+<div class="cont">
+    <img src="https://images.unsplash.com/photo-1719937050640-71cfd3d851be?q=80&w=1772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" height="500px" width="700px">
+    <div>
+        <div class="box3">Lorem ipsum dolor.</div>
+        <div class="box4">Lorem, ipsum dolor.</div>
+    </div>
+<!-- </div>
+    <header></header>
+    <div class="containre">
+        <div class="box2"></div>
+        <div class="box2"></div>
+    </div> -->
+</body>
+</html>
